@@ -1,6 +1,7 @@
 Body {
     font-family: Lato;
     margin: 0;
+    margin-top: -33px;
 }
 
 .firstsection {
@@ -13,10 +14,23 @@ Body {
     background-repeat: no-repeat;
     background-size: cover;
 
+
+}
+
+.secondsection {
+    height: 500px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-color: white;
+
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 #banner-header {
-    padding-top: 300px;
+    padding-top: 250px;
     font-weight: 700;
     font-size: 40px;
     padding-left: 15%;
@@ -30,11 +44,50 @@ Body {
 
 .donatenow-btn {
 
-    background-color: rgb(223, 60, 1);
+    background-color: #FF5959;
     text-align: center;
-    padding: 10px 40px;
+    padding: 10px 20px;
     text-decoration: none;
     font-size: large;
     color: white;
     border-radius: 5px;
+    font-weight: 700px;
+
+}
+
+.inputamout {
+    border: none;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px rgb(224, 224, 224) solid;
+
+}
+
+.amoutselect {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+
+.amount-btn {
+    padding: 40px 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: gray;
+    background-color: #FAFAFA;
+
+}
+
+.amount-btn-selected {
+    padding: 15px 20px;
+    border: .5px solid #FF5959;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FF5959;
+    background-color: #FFEEEE;
+
 }
