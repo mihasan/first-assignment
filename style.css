@@ -14,18 +14,25 @@ Body {
     background-repeat: no-repeat;
     background-size: cover;
 
-
 }
 
 .secondsection {
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     text-align: center;
     background-color: white;
 
     color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+}
+
+.thirdsection {
+    height: 500px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: white;
+
+    color: black;
 
 }
 
@@ -90,4 +97,23 @@ Body {
     color: #FF5959;
     background-color: #FFEEEE;
 
+}
+
+.donateplanbox {
+    height: 352px;
+    width: 360px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
+.half-width {
+
+    width: 75%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
 }
