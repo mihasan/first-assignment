@@ -28,13 +28,30 @@ Body {
 
 .thirdsection {
     height: 500px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
     text-align: center;
     background-color: white;
 
     color: black;
 
 }
+
+.fourthsection {
+    display: flex;
+    width: 75%;
+    text-align: left;
+    padding: 5%;
+    margin-left: 5%;
+
+}
+
+.fifthsection {
+    height: 500px;
+    padding-bottom: 50px;
+    text-align: left;
+
+}
+
 
 #banner-header {
     padding-top: 250px;
@@ -116,4 +133,14 @@ Body {
     float: left;
     margin-left: 2%;
     padding-left: 2%;
+}
+
+.footer {
+    padding-top: 5px;
+    text-align: center;
+    height: 150px;
+    font-family: lobster;
+    background-color: black;
+    background: cover;
+    color: #FF5959;
 }
